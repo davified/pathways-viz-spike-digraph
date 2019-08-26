@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "title": "Core Software Engineering",
+      "x": 100,
+      "y": 300,
+      "type": "custom"
+    },
+    {
+      "id": 2,
+      "title": "Technical Lead",
+      "x": 300,
+      "y": 300,
+      "type": "custom"
+    },
+    {
+      "id": 3,
+      "title": "Systems Architecture",
+      "x": 500,
+      "y": 400,
+      "type": "custom"
+    },
+    {
+      "id": 4,
+      "title": "Technical Anchor",
+      "x": 700,
+      "y": 200,
+      "type": "custom"
+    }
+  ],
+  "edges": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "customEdge"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "customEdge"
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "type": "customEdge"
+    }
+  ]
+}
